@@ -15,6 +15,42 @@
 .jumbotron {
   background-image: url(../img/pirate-ship.jpg);
   background-size: cover;
+  padding: 135px;
+  background-position: center;
+  text-align: center;
 }
-
+#title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 250%;
+}
+#subtitle {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 100%;
+}
+ .col-sm-7 {
+  border-left: 1.5px lightgrey solid;
+  padding-left: 30px;
+ }
+ .byline1,.source1 {
+   text-align: left;
+   margin-top: 10px;
+ }
+ h1 {
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   font-size: 200%;
+ }
+ h3 {
+   font-size: 150%;
+ }
+ p {
+   font-family: 'Times New Roman', Times, serif
+ }
+ footer {
+  clear: both;
+  text-align: center;
+  margin-top: 10px;
+}
+footer p {
+  font: 1rem Arial;
+}
 // Import partials here
